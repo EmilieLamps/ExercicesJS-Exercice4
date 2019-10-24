@@ -4,14 +4,26 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="assets/CSS/style.css" />
     <script type="text/javascript" src="assets/js/main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Exercice 4</title>
   </head>
   <body>
+    <div class="container">
+  <header>
+  </header>
+  <div class="row">
+    <div class="card col-md-6 offset-2 bg-light shadow ">
+      <div class="card-body text-center ">
+      <h1 class="col mb-3"><span class="badge badge-info">Exercice 4</span></h1>
     <form>
-               <label for="lastName">Nom : </label><input type="text" name="lastName" id="lastName"/>
-               <label for="firstName">Prénom : </label><input type="text" name="firstName" id="firstName"/>
-               <label for="city">Ville : </label><input type="text" name="city" id="city"/>
-               <button  name="submit" id="submit" onclick="formulaire()">Valider</button>
+               <label class="col-md-6" for="lastName">Nom : </label><input type="text" name="lastName" id="lastName"/>
+               <label class="col-md-6" for="firstName">Prénom : </label><input type="text" name="firstName" id="firstName"/>
+               <label class="col-md-6" for="city">Ville : </label><input type="text" name="city" id="city"/>
+               <button class="col-6 mt-5"  name="submit" id="submit" onclick="formulaire()">Valider</button>
            </form>
+        </div>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
